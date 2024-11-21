@@ -1,0 +1,34 @@
+.container1  {
+    overflow: hidden;
+    display: inline-flex;
+    margin: 30px auto;
+ }
+
+
+ .container1 .brands_list {
+    display: flex;
+   width: 100%;
+   animation: marquee 5s linear infinite;
+ }
+
+ .brands_list {
+    width: 100%;
+    display: inline-block;
+    justify-content: space-around;
+    margin: 30px auto;
+    margin-left: 10px auto;
+ }
+
+ .brands_list img {
+    width: 20%;
+    margin: 22px;
+ }
+
+@keyframes marquee {
+     0% {
+         transform: translateX(0%);
+     }
+     100% {
+         transform: translateX(-100%);
+     }
+ }

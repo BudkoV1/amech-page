@@ -1,0 +1,43 @@
+.header {
+    padding: 46px 0 56px;
+}
+
+.header_row {
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_logo {
+    align-items: center;
+    display: flex;
+    column-gap: 13px;
+    width: 50px;
+
+
+}
+.header_logo span {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: black;
+    text-transform: uppercase;
+}
+
+.header_nav {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+}
+
+.header_nav ul {
+    display: flex;
+    column-gap: 60px;
+    align-items: center;
+}
+.header_nav a {
+    color: var(--textColor);
+}

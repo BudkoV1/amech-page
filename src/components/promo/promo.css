@@ -1,0 +1,46 @@
+
+.promo {
+    margin-bottom: 63px;
+}
+
+.promo_img {
+    background-image: url(./../../img/slide1-amech.jpg);
+    width: 1720px;
+    height: 700px;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.promo_content {
+    border-radius: 59px;
+    display: inline-block;
+    padding-top: 68px;
+    padding-left: 120px;
+}
+
+.promo_text {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.25;
+    margin-bottom: 40px;
+    color: #fff;
+    border-radius: 60px;
+
+}
+.promo_btn_wrapper {
+
+}
+
+.promo_btn {
+    padding: 18px 40px;
+    background: #000;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: -0.05em;
+    color: #fff;
+}
