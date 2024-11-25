@@ -1,15 +1,15 @@
-import Header from './components/header/Header'
-import Promo from './components/promo/Promo'
-import Brands from './components/brands/Brands'
-import Text from './components/text/Text'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Pageone } from './Home';
+
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Promo />
-      <Brands />
-      <Text />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {}
+        <Route path="one" element={<Pageone />} />
+
+      </Routes>
+    </BrowserRouter>
   );
 }
 

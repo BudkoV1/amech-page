@@ -1,0 +1,109 @@
+
+
+
+input {
+    max-width: 190px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    justify-content: left;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    margin: 0.2rem;
+    display: block;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+
+  .rectangle {
+    background-color: aliceblue;
+    height: 300px;
+    width: 400px;
+  }
+
+  .inn {
+    display: block;
+    justify-items: center;
+    margin-top: 90px; 
+    background-color: rgb(243, 240, 240);
+    height: 760px;
+    width: 500px;
+    margin-left: 720px;
+    border-radius: 5rem;
+    margin-bottom: 100px;
+  }
+  
+  .h1 {
+    font-size: 30px;
+    margin-top: 30px;
+  }
+
+  
+  label {
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+    margin-right: 2rem;
+
+  }
+  .input-group {
+
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    display: block;
+  }
+  
+  input:hover, input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover label, input:focus {
+    color: #05060fc2;
+  }
+  button {
+    appearance: none;
+    background-color: transparent;
+    border: 0.125em solid #1A1A1A;
+    border-radius: 0.9375em;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 3.75em;
+    min-width: 0;
+    outline: none;
+    padding: 1em 2.3em;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+    margin-bottom: 50px;
+   }
+   button:disabled {
+    pointer-events: none;
+   }
+   
+   button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+   }
+   
+   button:active {
+    box-shadow: none;
+    transform: translateY(0);
+   }
