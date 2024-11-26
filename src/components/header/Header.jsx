@@ -14,11 +14,10 @@ function Header () {
                     </div>
                         <div className="header_nav">
                             <ul>
-                                <li><a href="#!">Главная</a></li>
-                                <li><a href="#!">Услуги</a></li>
-                                <li><a href="#!">Акции</a></li>
-                                <li><a href="#!">Контакты</a></li>
-                                <li><a href="#!">О Компании</a></li>
+                                <li><a className="a" href="home#!">Главная</a></li>
+                                <li><a className="a" href="services#!">Услуги</a></li>
+                                <li><a className="a" href="stock#!">Акции</a></li>
+                                <li><a className="a" href="contacts#!">Контакты</a></li>
                             </ul>
                         </div>
                 </div>

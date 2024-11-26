@@ -30,10 +30,10 @@ const Footer = () => {
           <div className="sub">
             <div>
               <b>Навигация по сайту</b>
-              <p><a href="#!">Услуги</a></p>
-              <p><a href="#!">Акции</a></p>
-              <p><a href="#!">Контакты</a></p>
-              <p><a href="#!">О компании</a></p>
+              <p><a className="a" href="services#!">Услуги</a></p>
+              <p><a className="a" href="stock#!">Акции</a></p>
+              <p><a className="a" href="contacts#!">Контакты</a></p>
+              <p><a className="a" href="#!">О компании</a></p>
             </div>
             <div>
               <b>Записаться на сервис</b>

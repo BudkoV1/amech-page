@@ -1,0 +1,16 @@
+#cont {
+    height: 145vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #faf9f6;
+  }
+  
+  .col {
+    margin-top: 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+  }

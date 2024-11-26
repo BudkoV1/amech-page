@@ -8,7 +8,7 @@ const Promo = () => {
                     Бесплатная Диагностика -<br></br>Вашего Автомобиля!
                 </div>
                 <div className="promo_btn-wrapper">
-                    <a href="#!" className="promo_btn">
+                    <a href="stock#!" className="promo_btn">
                         Узнать подробнее
                         </a>
                 </div>

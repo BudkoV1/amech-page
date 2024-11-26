@@ -1,5 +1,10 @@
 .header {
-    padding: 46px 0 56px;
+    padding: 20px 0 20px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 3;
+   
 }
 
 .header_row {
@@ -40,4 +45,23 @@
 }
 .header_nav a {
     color: var(--textColor);
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+
+.a:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px; 
+	background-color: #000000;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.a:hover:after,
+.a:focus:after {
+	width: 100%;
 }

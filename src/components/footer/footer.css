@@ -3,7 +3,8 @@
     margin: 0px;
     background-color: #f5f5f5;
     padding: 0px;
-    margin-top: 90px;
+    margin-top: -90px;
+    margin-top: 30px;
   }
   
   .footer-content {
@@ -49,3 +50,25 @@ img {
   .btn-footer {
     margin-top: 30px;
   }
+  .a {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+  }
+
+.a:after {
+display: block;
+position: absolute;
+left: 0;
+width: 0;
+height: 2px; 
+background-color: #000000;
+content: "";
+transition: width 0.3s ease-out;
+}
+
+.a:hover:after,
+.a:focus:after {
+width: 100%;
+}
