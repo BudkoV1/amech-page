@@ -1,34 +1,30 @@
-.container1  {
-    overflow: hidden;
-    display: inline-flex;
+.container1 {
+    overflow: hidden; /* This is crucial for hiding overflowing content */
+    display: flex; /* Use flexbox for easier layout */
     margin: 30px auto;
- }
+}
 
-
- .container1 .brands_list {
+.container1 .brands_list {
     display: flex;
-   width: 100%;
-   animation: marquee 5s linear infinite;
- }
+    animation: marquee 10s linear infinite; /* Increased duration for smoother animation */
+    transition: transform 0.5s ease-in-out; /* Add a smooth transition */
+}
 
- .brands_list {
-    width: 100%;
-    display: inline-block;
-    justify-content: space-around;
-    margin: 30px auto;
-    margin-left: 10px auto;
- }
+.brands_list {
+    justify-content: space-around; /* Keep this for spacing */
+    white-space: nowrap; /* Prevent line breaks */
+}
 
- .brands_list img {
+.brands_list img {
     width: 20%;
     margin: 22px;
- }
+}
 
 @keyframes marquee {
-     0% {
-         transform: translateX(0%);
-     }
-     100% {
-         transform: translateX(-100%);
-     }
- }
+    0% {
+        transform: translateX(0%); /* Start offscreen to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* End offscreen to the left */
+    }
+}
