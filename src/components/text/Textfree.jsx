@@ -1,4 +1,5 @@
 import './text.css'
+
 const Text = () => {
     return ( <section className="Text">
         <div className="container">

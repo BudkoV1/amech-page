@@ -1,10 +1,6 @@
 import Header from '../components/header/Header.jsx'
-import Promo from '../components/promo/Promo.jsx'
-import Brands from '../components/brands/Brands.jsx'
-import Text from '../components/text/Text.jsx'
 import Formhook from '../components/formhook/Formhook.jsx'
 import Footer from '../components/footer/Footer.jsx'
-import Text2 from '../components/text/Text2.jsx'
 import { Card } from '../components/services/uslugi.jsx'
 import './services.css'
 function Services() {

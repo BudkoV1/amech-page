@@ -1,4 +1,3 @@
-
 import * as React from "react";
 import { useForm } from "react-hook-form";
 import './formhook.css'
@@ -22,6 +21,7 @@ export default function App() {
       "comments": ""
     }
   });
+  
   const onSubmit = (data) => console.log(JSON.stringify(data));
 
   if (submissionId) {

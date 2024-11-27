@@ -1,5 +1,4 @@
 import React from "react";
-
 import "./uslugi.css";
 
 export const Card = ({

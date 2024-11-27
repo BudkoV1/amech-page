@@ -1,9 +1,6 @@
 import React from 'react';
 import './table.css'
 import {
-    AiFillFacebook,
-    AiFillTwitterCircle,
-    AiFillInstagram,
     AiFillPhone,
     AiFillMail,
     AiOutlineEnvironment,

@@ -9,7 +9,6 @@ import {
 } from "react-icons/ai";
 import "./footer.css";
 import logoimg from "./../../img/logo.png"
-import Formhook from "./../formhook/Formhook"
 
 const Footer = () => {
   return (

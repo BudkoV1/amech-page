@@ -1,4 +1,5 @@
 import './free.css'
+
 const Free = () => {
     return ( <section className="promo">
         <div className="container">
