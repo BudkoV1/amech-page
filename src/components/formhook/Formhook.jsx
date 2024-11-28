@@ -37,6 +37,8 @@ export default function App() {
         <h1 className="h1">Запись на сервис</h1>
     <div className="input-group">
       <div>
+
+        
         <label>
           <span>Ваше имя</span>
           <input
