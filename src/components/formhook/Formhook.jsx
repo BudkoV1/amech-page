@@ -21,7 +21,7 @@ export default function App() {
       "comments": ""
     }
   });
-  
+
   const onSubmit = (data) => console.log(JSON.stringify(data));
 
   if (submissionId) {
@@ -32,6 +32,7 @@ export default function App() {
     <form onSubmit={handleSubmit(onSubmit)}>
         <div className="inn">
             <div className="rectancgle"></div>
+            
             <br />
         <h1 className="h1">Запись на сервис</h1>
     <div className="input-group">
